@@ -1,0 +1,14 @@
+highlighter: 'pygments'
+markdown: kramdown
+url: http://xpmethod.plaintext.in/
+permalink: none
+
+# Required if you want to move pages into a a separate directory
+# not working at the moment for some reason
+include: ['_pages']
+# relative_permalinks: false
+
+# People Data -----------------------------------------
+rollcall:
+    -last-name: Tenen
+    -homepage: http://denen.plaintext.io/
