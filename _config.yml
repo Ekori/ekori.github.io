@@ -1,2 +1,4 @@
 highlighter: 'pygments'
-markdown: kramdown
+permalink: /:year/:month/:day/:title.html
+markdown: rdiscount
+exclude: ['Gemfile', 'Gemfile.lock']
