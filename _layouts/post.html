@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<div id="post">
-    <h1>&raquo; {{ page.title }}
-    {% if page.type %}
-        <sup><code>{{ page.type }}</code></sup>
-    {% endif %}</h1>
+<div class="content">
+	{% include post_header.html %}
+    {{ content }}
 </div>
