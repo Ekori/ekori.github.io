@@ -18,7 +18,7 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
 		display: block;
 	}
 
@@ -1145,10 +1145,12 @@
 
 	h1 {
 		font-weight: 300;
+        line-height: 1.30;
 	}
 
 		h1 strong {
 			font-weight: 700;
+            line-height: 1.30;
 		}
 
 	em, i {
@@ -1758,11 +1760,13 @@
 				}
 
 			footer {
-				margin: 3em 0 0 0;
+				margin: 0 0 3em 0;
 			}
 
 				footer > p {
 					font-size: 1.25em;
+                    margin: auto;
+                    width: 70%;
 				}
 
 		/* Form */
@@ -1971,7 +1975,7 @@
 			}
 
 			header {
-				margin: 0 0 2em 0;
+				margin: 0 0 5em 0;
 			}
 
 				header > p {
@@ -1979,7 +1983,8 @@
 				}
 
 			footer {
-				margin: 2.5em 0 0 0;
+				margin: 0.5em;
+                text-align: center
 			}
 
 				footer > p {
