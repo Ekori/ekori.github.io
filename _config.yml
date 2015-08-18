@@ -1,5 +1,0 @@
-auto: true
-highlighter: 'pygments'
-permalink: /blog/:title
-markdown: rdiscount
-exclude: ['Gemfile', 'Gemfile.lock']
